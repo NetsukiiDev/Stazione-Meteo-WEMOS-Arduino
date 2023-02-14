@@ -15,3 +15,18 @@ La connessione al database non è diretta perché il database potrebbe non esser
 I dati vengono stampati nella console di Arduino IDE ogni 5 secondi, e viene inviata la temperatura ogni 30 minuti da mezzanotte; è stato anche aggiunto un led di allarme che si attiva se la temperatura è superiore a 30 o inferiore a 0, e si disattiva se compresa tra 0 e 30.
 
 I grafici sono 2 e mostrano temperatura giornaliera (le ultime 24 temperature registrate), e temperatura massima/minima settimanale.
+
+# REQUISITI
+
+|Componente|Link|
+-----------------
+|WeMos R1 D2|[Link](https://amzn.eu/d/8DcHbHJ)|
+|Sensore di Temperatura (LM35)|[Link](https://amzn.eu/d/3ysLPl3)|
+|Resistenza 220 Ω|[Link](https://amzn.eu/d/f7IrUYF)|
+|Led Rosso|[Link](https://amzn.eu/d/byayjce)|
+|Basetta Breadboard|[Link](https://amzn.eu/d/8cSIFtg)|
+
+Necessiterai anche di un Server, ti consiglio di utilizzare il sistema operativo Ubuntu 20.04 LTS.
+
+<img width="1190" alt="image" src="https://user-images.githubusercontent.com/71921943/218819650-2fdef53f-e0b6-4e9f-8f7c-8c652625268a.png">
+
