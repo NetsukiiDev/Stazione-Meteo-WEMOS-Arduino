@@ -1,4 +1,4 @@
-Stazione Meteo Remota
+# Stazione Meteo Remota
 
 L'Arduino (in questo caso basato sul microcontrollore WeMos R1 D2 ESP8266 Wifi) legge la temperatura da un sensore e invia i dati al server tramite una richiesta HTTP. Questa richiesta HTTP viene gestita da una pagina PHP sul server, che riceve i dati e li registra nel database MariaDB.
 
