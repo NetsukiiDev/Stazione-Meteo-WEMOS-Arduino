@@ -15,6 +15,3 @@ La connessione al database non è diretta perché il database potrebbe non esser
 I dati vengono stampati nella console di Arduino IDE ogni 5 secondi, e viene inviata la temperatura ogni 30 minuti da mezzanotte; è stato anche aggiunto un led di allarme che si attiva se la temperatura è superiore a 30 o inferiore a 0, e si disattiva se compresa tra 0 e 30.
 
 I grafici sono 2 e mostrano temperatura giornaliera (le ultime 24 temperature registrate), e temperatura massima/minima settimanale.
-
-code-block:: rst
-  nonexist
